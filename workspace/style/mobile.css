@@ -1,0 +1,66 @@
+/* mobile view */
+
+ @media (max-width: 600px) {
+    .b{
+         display: block;
+         background: url("/images/burger.png") no-repeat 95% center;
+         background-size: 48px 48px;
+         height: 80px;
+         width: 100%;
+         background-color: #9999ff;
+         border: 4px dotted black;
+         cursor: pointer;
+     }
+     #nav{
+         display: block;
+     }
+     #nav ul{
+         overflow: hidden;
+         margin: 0;
+         width: 100%;
+         height: 0;
+     }
+     #nav ul.open{
+         height: auto;
+     }
+    #nav li{
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    
+    hr{
+        display: none;
+    }
+    
+    .homeImages{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .mainHeading{
+        font-size: 30px !important;
+    }
+    #jobInfo{
+        margin:0;
+        margin-left: 1%;
+        width: 97%;
+        font-size: 24px;
+        text-align: left;
+    }
+    #tagcloud{
+        font-size: 20px;
+    }
+    
+    #homeContent p{
+        font-size: 24px !important;
+        /*text-align: left;*/
+        /*margin: 20px 0;*/
+        /*width: 100%;*/
+    }
+    #statsContent p{
+        font-size: 20px;
+    }
+    #statsContent h2{
+        font-size: 20px;
+    }
+ }

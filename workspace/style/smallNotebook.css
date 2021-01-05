@@ -1,0 +1,32 @@
+/* tablet view */
+ @media (max-width: 890px) {
+    #nav li{
+        /*font-size: 1.4em;*/
+        font-weight: bold;
+    }
+    aside{
+        display: none;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #uniContent, #homeContent, #statsContent, #jobsContent{
+        width: 100%;
+        margin: 0;
+        display: block;
+        padding: 0;
+    }
+    
+    .mainHeading{
+        font-size: 36px;
+    }
+    .shortText { display: inline-block; }
+    .longText { display: none; }
+    
+ }
+ 
+ 
+ 
+ 

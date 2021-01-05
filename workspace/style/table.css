@@ -1,0 +1,19 @@
+table{
+    border:1px solid black;
+    margin-left: 20%;
+    margin-bottom: 4%;
+}
+td,th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+    font-family: Arial;
+}
+th{
+    background-color: #5c5ce6;
+    color: #fff;
+}
+tr:nth-child(odd){
+    background-color: #ccc;
+}
+

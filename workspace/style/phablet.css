@@ -1,0 +1,23 @@
+/* phablet view */
+ @media (max-width: 750px) {
+    #nav li{
+        font-size: 20px;
+    }
+    #showUniList{
+        font-size: 20px;
+        text-align: left;
+    }
+    #showUniList li{
+        list-style-type: disc;
+    }
+    
+    #sec1{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    #homeContent p{
+        text-align: left;
+        font-size: 30px;
+    }
+ }
